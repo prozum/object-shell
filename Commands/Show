@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+import sys
+import json
+
+def main():
+    print(json.loads("".join(sys.stdin.readlines())))
+
+main()

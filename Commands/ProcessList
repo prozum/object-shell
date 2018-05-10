@@ -1,0 +1,2 @@
+#!/usr/bin/env pwsh
+Get-Process |  Select-Object -Property Id,Name | ConvertTo-Json | Write-Output

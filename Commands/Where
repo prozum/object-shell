@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+import sys
+import json
+import sys
+
+def main():
+    var, val = sys.argv[1].split("=")
+    items = json.loads("".join(sys.stdin.readlines()))
+
+    result = [item for item in items if item[var] == val]
+    print(result)
+
+
+main()

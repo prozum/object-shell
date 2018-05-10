@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Date",
+  "description": "Date (Base object)",
+  "type": "object",
+  "properties": {
+    "year": {
+      "type": "integer"
+    },
+    "month": {
+      "type": "integer"
+    },
+    "day": {
+      "type": "integer"
+    }
+  },
+  "required": ["year", "month", "day"]
+}

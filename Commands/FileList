@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+import json
+from os import listdir
+from sys import stdout
+
+
+def main():
+    print("[", end="")
+    files = listdir()
+    for i in range(len(files)):
+        print("{\"name\":\"" + files[i] + "\"}", end="")
+        if len(files) > i + 1:
+            print(",", end="")
+
+    print("]", end="")
+
+main()

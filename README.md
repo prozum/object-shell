@@ -1,2 +1,2 @@
-# object-shell
-Object-oriented unix shell
+# oshell
+Object-oriented unix shell prototype. WIP!
